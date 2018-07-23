@@ -1,0 +1,45 @@
+compat/socket.o: compat/socket.c ../../include/compat/sys/socket.h \
+ ../../apps/nc/compat/sys/socket.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/socket.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h \
+ ../../include/compat/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h \
+ ../../include/compat/sys/uio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/uio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sigtypes.h
+
+../../include/compat/sys/socket.h:
+
+../../apps/nc/compat/sys/socket.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/socket.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h:
+
+../../include/compat/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h:
+
+../../include/compat/sys/uio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/uio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sigtypes.h:

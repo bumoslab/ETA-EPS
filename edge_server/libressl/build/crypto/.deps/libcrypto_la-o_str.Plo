@@ -1,0 +1,108 @@
+libcrypto_la-o_str.lo: o_str.c ../include/compat/string.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/string.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h \
+ ../include/compat/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/strings.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/strings.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/ssp.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/string.h \
+ ../include/compat/sys/types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h \
+ ../include/compat/machine/endian.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/endian.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdint.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_mwgwtypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_mwgwtypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_const.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/wchar_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian_machdep.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/bswap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/byte_swap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/bswap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/stdint.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/fd_set.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/pthread_types.h
+
+../include/compat/string.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/string.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h:
+
+../include/compat/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/strings.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/strings.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/ssp.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/ssp/string.h:
+
+../include/compat/sys/types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h:
+
+../include/compat/machine/endian.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/endian.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdint.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_mwgwtypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_mwgwtypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_const.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/wchar_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian_machdep.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/bswap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/byte_swap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/bswap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/stdint.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/fd_set.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/pthread_types.h:

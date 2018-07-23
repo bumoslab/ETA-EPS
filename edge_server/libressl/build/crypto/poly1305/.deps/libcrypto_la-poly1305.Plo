@@ -1,0 +1,42 @@
+poly1305/libcrypto_la-poly1305.lo: poly1305/poly1305.c \
+ ../include/openssl/poly1305.h ../include/openssl/opensslconf.h \
+ ../include/openssl/opensslfeatures.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stddef.h \
+ ../include/compat/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h \
+ poly1305/poly1305-donna.c
+
+../include/openssl/poly1305.h:
+
+../include/openssl/opensslconf.h:
+
+../include/openssl/opensslfeatures.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stddef.h:
+
+../include/compat/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h:
+
+poly1305/poly1305-donna.c:

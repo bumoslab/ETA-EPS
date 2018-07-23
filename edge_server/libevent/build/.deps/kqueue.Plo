@@ -1,0 +1,244 @@
+kqueue.lo: kqueue.c include/event2/event-config.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/endian.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian_machdep.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/bswap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/byte_swap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/bswap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/stdint.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_mwgwtypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_mwgwtypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_const.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/wchar_limits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/fd_set.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/pthread_types.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/time.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/timespec.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/select.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sigtypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/time.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/idtype.h \
+ compat/sys/queue.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/event.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/inttypes.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_fmtio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ioctl.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ttycom.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/syslimits.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ioccom.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/dkio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/prop/plistref.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/filio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sockio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/signal.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/signal.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/siginfo.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/signal.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/trap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/x86/trap.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/mcontext.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/frame_regs.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ucontext.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stdio.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stdlib.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/string.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/strings.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/unistd.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/unistd.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/errno.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/errno.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/inttypes.h \
+ event-internal.h include/event2/event_struct.h include/event2/util.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdint.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stddef.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdarg.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/netdb.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/socket.h \
+ /home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/uio.h \
+ include/event2/keyvalq_struct.h minheap-internal.h \
+ include/event2/event.h util-internal.h log-internal.h ipv6-internal.h \
+ mm-internal.h evsignal-internal.h defer-internal.h evmap-internal.h \
+ include/event2/thread.h evthread-internal.h changelist-internal.h
+
+include/event2/event-config.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/featuretest.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/cdefs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/cdefs_elf.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/ansi.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ansi.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/endian.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/endian_machdep.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/bswap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/byte_swap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/bswap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/stdint.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_mwgwtypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_mwgwtypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/common_int_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_const.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/wchar_limits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/fd_set.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/pthread_types.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/time.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/timespec.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/select.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sigtypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/time.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/null.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/idtype.h:
+
+compat/sys/queue.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/event.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/inttypes.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/int_fmtio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ioctl.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ttycom.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/syslimits.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ioccom.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/dkio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/prop/plistref.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/filio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/sockio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/signal.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/signal.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/siginfo.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/signal.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/trap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/x86/trap.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/mcontext.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/amd64/frame_regs.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/ucontext.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stdio.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stdlib.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/string.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/strings.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/unistd.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/unistd.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/errno.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/errno.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/inttypes.h:
+
+event-internal.h:
+
+include/event2/event_struct.h:
+
+include/event2/util.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdint.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/stddef.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/./rumprun/rumprun-x86_64/include/stdarg.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/netdb.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/socket.h:
+
+/home/moslab/Desktop/gdoc-project/rumprun/rumprun/rumprun-x86_64/include/sys/uio.h:
+
+include/event2/keyvalq_struct.h:
+
+minheap-internal.h:
+
+include/event2/event.h:
+
+util-internal.h:
+
+log-internal.h:
+
+ipv6-internal.h:
+
+mm-internal.h:
+
+evsignal-internal.h:
+
+defer-internal.h:
+
+evmap-internal.h:
+
+include/event2/thread.h:
+
+evthread-internal.h:
+
+changelist-internal.h:
